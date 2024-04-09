@@ -1,0 +1,16 @@
+Write a command-line program that reads from a text file. The text file will have records that look like this
+
+```
+-3k tomatoes
+-50k DSTV
+-10000 lunch date
++100k salary
++50k wangongole wabweza
+-60k rentals
++20 my bro wandigaila ```
+
+Your job is to write a program that will read each of those lines and come up with three totals (credit, debit and balance). Amounts starting with - are credits, + are debits, the descriptions are not limited to one word
+the output should into another file, and must look like
+Credit: <amount>
+Debit: <amount>
+Balance: <amount>
